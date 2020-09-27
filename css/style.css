@@ -1,0 +1,346 @@
+
+body
+{
+    background-color: r#F0F8FF;
+}
+
+.nav-item
+{
+    margin-right: 100px;
+}
+
+
+i
+{
+    margin-left: 20px;
+}
+
+.social
+{
+    font-size: 20px;
+}
+
+/* facebook
+instagram
+twitter
+linkedin
+github
+whatsapp */
+
+ .fa-facebook
+{
+    color: blue;
+
+}
+
+.fa-instagram
+{
+    color: red;
+}
+
+.fa-twitter
+{
+    color: cornflowerblue;
+}
+
+.fa-linkedin
+{
+    color: blueviolet;
+}
+
+.fa-github
+{
+    color: black;
+}
+
+.fa-whatsapp
+{
+    color: green;
+}
+
+
+#support,#email
+{
+    color: #A9A9A9;
+}
+
+.section1
+{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    background-image: url("../images/abstract_1.png");
+    background-repeat: no-repeat;
+    
+    /* opacity: 0.2; */
+    background-attachment: fixed;
+
+ 
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+	
+    font-size: 70px;
+	animation-duration: 30s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% {  opacity: 0; }
+  8.3%,25% {  opacity: 1; }
+  33.33%, 100% {  opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { opacity: 0; }
+  41.63%, 58.29% {  opacity: 1; }
+  66.66%, 100% {  opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% {  opacity: 0; }
+  74.96%, 91.62% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+ .down
+{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.hire
+{
+    margin-left: 110px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-collapse{
+    width: 100%;
+}
+
+.sec1
+{
+    background-color: rgb(37, 36, 36);
+    border-right: 1px solid rgb(119, 114, 114);
+    color: white;
+    width: 100%;
+    height: 350px;
+    
+}
+
+.sec1 h1{
+    color: rgb(233, 12, 56);
+    transition: all 500ms ease-in-out;
+}
+.sec1:hover
+{
+    background-color: rgb(233, 12, 56);
+    background-image:url("../images/b.png");
+    transition: all 500ms ease-in-out;
+    
+    
+    
+}
+
+.sec1:hover h1
+{
+    color: white;
+    margin-top:10px ;
+    transition: all 500ms ease-in-out;
+}
+
+
+.fa-wrench,.fa-lightbulb-o,.fa-volume-control-phone
+{
+    font-size: 50px;
+    color: rgb(233, 12, 56);
+    
+}
+
+.sec1:hover .fa-wrench , .sec1:hover .fa-lightbulb-o,.sec1:hover .fa-volume-control-phone 
+{
+    color: white;
+}
+
+
+.service
+{
+   
+   text-align: center;
+   margin-top: -20px;
+    
+}
+
+.service h4
+{
+    color: #A9A9A9;
+}
+
+.service-content
+{
+    margin-top: 80px;
+}
+
+.sc
+{
+    width: 100%;
+    height: 300px;
+    padding: 35px;
+    border-bottom: 2px solid rgb(194, 186, 186);
+    border-right: 2px solid rgb(194, 186, 186);
+}
+
+
+
+.sc h3{
+    color: rgb(233, 12, 56);
+    transition: all 500ms ease-in-out;
+    margin-top: 20px;
+}
+.sc:hover
+{
+    background-color: rgb(233, 12, 56);
+    background-image:url("../images/b.png");
+    transition: all 500ms ease-in-out;
+    color: white;
+    
+    
+    
+}
+
+.sc:hover h3
+{
+   
+    margin-top:10px ;
+    transition: all 500ms ease-in-out;
+    margin-top: 30px;
+    color: white;
+}
+
+.sc i
+{
+    font-size: 50px;
+    color: rgb(233, 12, 56);
+}
+
+.sc:hover i
+{
+    color: white;
+}
+
+
+
+.none1
+{
+    border-right: none;
+
+}
+
+.none2
+{
+    border-bottom: none;
+
+}
+.no
+{
+    border-right: none;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 500ms ease-in-out;
+    }
+    
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+
+    .main
+{
+    margin-top: 100px;
+}
+
+.section1
+{
+    background-image: none;
+    margin-top: -70px;
+    height: 500px;
+    
+}
+
+.opacity h1
+{
+    text-align: center;
+}
+.down
+{
+    margin-top: 200px;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+
+.mob
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sc
+{
+    border: none;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
